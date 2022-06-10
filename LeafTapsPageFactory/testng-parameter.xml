@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps Leads UI Cases">
+<parameter name="URL" value="http://leaftaps.com/opentaps/control/main"/>
+  <test name="Create Lead - Chrome">
+  <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.leaftaps.ui.tests.CreateLead_Positive"/>
+    </classes>
+  </test> <!-- Create Lead -->
+</suite> <!-- Leaftaps Leads UI Cases -->
+ 
